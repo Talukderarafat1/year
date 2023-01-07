@@ -1,0 +1,233 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:ital,wght@0,700;1,300;1,400&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+ .header {
+     display: flex;
+     width: 100%;
+     height: 100vh;
+     background-image: url(../img/banner/banner2.png);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+ }
+ 
+ .text-box {
+     position: absolute;
+     font-size: 30px;
+     margin-bottom: 20px;
+ }
+ 
+ .text-box h1 {
+     position: absolute;
+     font-size: 40px;
+     width: 525px;
+     height: 228px;
+     left: 865px;
+     top: 300px;
+ }
+ 
+ .text-box p {
+     position: absolute;
+     font-size: 20px;
+     width: 494px;
+     height: 78px;
+     left: 865px;
+     top: 468px;
+ }
+ 
+ .btn {
+     position: absolute;
+     width: 150px;
+     height: 64px;
+     left: 1135px;
+     top: 578px;
+     background: #F15B22;
+     border-radius: 5px;
+ }
+ /* ------------My failures of previous start-------------  */
+ 
+ .person {
+     position: absolute;
+     width: 569px;
+     height: 723.3px;
+     left: 206px;
+     top: 939px;
+ }
+ 
+ .person-text h1 {
+     position: absolute;
+     width: 288px;
+     height: 94px;
+     left: 841px;
+     top: 332px;
+     /* font-weight: 700;*/
+     font-size: 45px;
+     line-height: 55px;
+     color: #151414;
+ }
+ 
+ .person-text h4 {
+     position: absolute;
+     width: 416px;
+     height: 104px;
+     left: 841px;
+     top: 488px;
+     font-size: 16px;
+     line-height: 26px;
+     color: #444343;
+ }
+ 
+ .person-text h5 {
+     position: absolute;
+     width: 416px;
+     height: 104px;
+     left: 880px;
+     top: 600px;
+     font-size: 16px;
+     line-height: 26px;
+     color: #444343;
+ }
+ /* ---------------My failures of previous end---------------  */
+ /* ---------------Awlays keep a positive mindset start ---------- */
+ 
+ .watch {
+     position: absolute;
+     width: 1140px;
+     height: 300px;
+     left: 230px;
+     top: 2216.3px;
+     background: url(../img/gradient2.png), url(../img/watch.png);
+     border-radius: 10px;
+ }
+ 
+ .watch h1 {
+     position: absolute;
+     width: 459px;
+     left: 64px;
+     top: 59.3px;
+     font-size: 45px;
+     line-height: 50px;
+     color: #fff;
+ }
+ 
+ .call {
+     position: absolute;
+     width: 160px;
+     height: 64px;
+     left: 65px;
+     top: 200.3px;
+     color: #F15B22;
+     border-radius: 7px;
+ }
+ /* ---------------Awlays keep a positive mindset end ---------- */
+ /* ---------------footer start-------------------  */
+ 
+ .colour {
+     position: absolute;
+     width: 1600px;
+     height: 577px;
+     left: 0px;
+     top: 2646.3px;
+     background: #151414;
+ }
+ 
+ .services-two h1 {
+     position: absolute;
+     left: 238px;
+     top: 200.3px;
+     font-size: 50px;
+     color: #fff;
+ }
+ 
+ .services-two p {
+     position: absolute;
+     width: 485px;
+     height: 78px;
+     left: 242px;
+     top: 275.3px;
+     color: #fff;
+ }
+ 
+ .services-two h5 {
+     position: absolute;
+     left: 242px;
+     top: 355.3px;
+     color: #fff;
+ }
+ 
+ .box {
+     position: absolute;
+     font-size: 41px;
+     left: 1000px;
+     top: 210.3px;
+     color: #fff;
+ }
+ 
+ .box h5 {
+     position: absolute;
+     padding: 20px;
+     font-weight: 600;
+     font-size: 25px;
+     line-height: 29px;
+     color: #fff;
+ }
+ 
+ .form-box {}
+ 
+ .form-box input {
+     font-size: 18px;
+     color: #151414;
+     padding: 15px 10px;
+     border-radius: 7px;
+     outline: none;
+     background: #fff;
+ }
+ 
+ .form-box button {
+     color: #F15B22;
+     padding: 15px 20px;
+     font-size: 20px;
+     border-radius: 7px;
+     background: #fff;
+     cursor: pointer;
+     transition: .3s;
+ }
+ /* ---------------footer end-------------------  */
+ /* --------------------plan start------------- */
+ 
+ .row-one {
+     display: flex;
+     margin-top: 5%;
+     justify-content: space-between;
+ }
+ 
+ .services-one {
+     width: 100%;
+     padding-top: 1020px;
+     text-align: center;
+     left: 230px;
+     top: 1792.3px;
+ }
+ 
+ .services-collam-one {
+     flex-basis: 30%;
+     border-radius: 10px;
+     margin-bottom: 5%;
+     padding: 20px 12px;
+     box-sizing: border-box;
+ }
+ 
+ .icone-pic {
+     position: absolute;
+     width: 150px;
+     height: 15px;
+     left: 236px;
+     top: 411.3px;
+ }
+ /* --------------------plan end------------- */
